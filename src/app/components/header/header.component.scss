@@ -1,0 +1,41 @@
+.header-section {
+  background-color: var(--details-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.icons-color {
+    color: var(--primary-color);
+  }
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+  border: none;
+}
+
+.hamburguer-menu__Interior{
+  background-color: var(--primary-color);
+}
+
+.search-container{
+    width: 327px;
+    height: 44px;
+    top: 67px;
+    left: 125px;
+    border-radius: 20px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 120px;
+    padding-top: 10px;
+}
+    .search-input {
+padding-left: 120px;
+    }
+
+
