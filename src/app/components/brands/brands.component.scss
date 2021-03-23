@@ -1,3 +1,10 @@
+.brands__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 26px 0 0 19px;
+  color: var(--text-color__light);
+}
+
 .brands__container--images {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -5,9 +12,8 @@
   justify-items: center;
 }
 
-.brands__title {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 26px 0 0 19px;
-  color: var(--text-color__light);
-}
+
+
+
+
+
