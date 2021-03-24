@@ -1,5 +1,6 @@
-<div class="card bg-dark text-white new__products--container">
-    <img src="../../../assets/images/products.jpg" class="card__img--news" alt="new product">
+<section class="categories__section">
+  <div class="card bg-dark text-white news__container">
+    <img class="card-img" src="../../../assets/images/news.jpg" alt="new product">
     <div class="card-img-overlay">
       <h3 class="card__new--title">New products</h3>
       <p class="card__new--text">Japan</p>
@@ -7,11 +8,11 @@
     </div>
   </div>
 
-  <div class="card bg-dark text-white new__products--container">
+  <div class="card bg-dark text-white highlighted__container">
     <img src="../../../assets/images/products.jpg" class="card__img--news" alt="new 
 product">
     <div class="card__viewed--container card-img-overlay">
-        <h4 class="card__viewed--title">Most viewed category</h4>
+      <h4 class="card__viewed--title">Most viewed category</h4>
       <p class="card__viewed--subtitle">Highlighted product category</p>
       <p class="card__viewed--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
@@ -20,7 +21,9 @@ product">
   <div class="card bg-dark text-white card__categorie--container" *ngFor="let categorie of categories; let i = index">
     <img class="card__categorie--img" [src]="categorie.image" alt="Card image cap">
     <div class="card-img-overlay card__categorie--text">
-        <h6 class="categorie__text--title">{{categorie.title}}</h6>
+      <h6 class="categorie__text--title">{{categorie.title}}</h6>
       <p class="categorie__text--subtitle">{{categorie.subtitle}}</p>
     </div>
   </div>
+
+</section>

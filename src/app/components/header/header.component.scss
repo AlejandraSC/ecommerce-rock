@@ -8,34 +8,46 @@
   justify-content: flex-start;
   width: 100%;
   height: 152px;
+  @media all and (min-width: 1280px) {
+    height: 94px;
+  }
 }
 
 .icons-color {
   color: var(--primary-color);
-} 
+}
 
 .hamburguer__icon {
   width: 21px;
-height: 14.5px;
-left: 25px;
-top: 26.5px;
+  height: 14.5px;
+  left: 25px;
+  top: 26.5px;
+  @media all and (min-width: 1280px) {
+    display: none;
+  }
 }
 
 .hamburguer--menu__interior {
   background-color: var(--primary-color);
 }
 
-.nav__interior--container{
-display: grid;
-grid-template-columns: repeat(1, 1fr);
-grid-template-rows: 1fr;
-justify-items:flex-start;
-left: 30px;
+.nav__interior--container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: flex-start;
+  left: 30px;
 }
 
+.nav__interior--logo {
+  width: 126px;
+  height: 28px;
+  margin: 10px 0 39px 0;
+  top: 86px;
+}
 .help__interior__container {
   margin-left: 30px;
-margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 .nav__item--title {
@@ -43,7 +55,8 @@ margin-bottom: 10%;
   font-size: 22px;
 }
 
-.nav__link , .nav__item--title {
+.nav__link,
+.nav__item--title {
   color: var(--secondary-color);
   line-height: 32px;
 }
@@ -60,31 +73,29 @@ margin-bottom: 10%;
   border: none;
 }
 
-.hamburguer-menu__Interior{
+.hamburguer-menu__Interior {
   background-color: var(--primary-color);
 }
 
-.search__container{
-    width: 327px;
-    height: 44px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 21px 23px 20px 25px;
+.search__container {
+  width: 327px;
+  height: 44px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 21px 23px 20px 25px;
 }
 
 .search-icon {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    margin-right: 12.34px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-right: 12.34px;
 }
-    .search-input {
-//padding-left: 120px;
-border-radius: 20px;
-
-background-color: var(--primary-color);;
-    }
+.search-input {
+  border-radius: 20px;
+  background-color: var(--primary-color);
+}
 
 .header__logo {
   width: 125px;

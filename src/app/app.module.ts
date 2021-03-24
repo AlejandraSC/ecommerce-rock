@@ -12,7 +12,7 @@ import { PromisesComponent } from './components/promises/promises.component';
 import { TopProductsComponent } from './components/top-products/top-products.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { HttpClientModule } from '@angular/common/http'
     BrandsComponent,
     PromisesComponent,
     TopProductsComponent,
-    SubscribeComponent
+    SubscribeComponent,
   ],
   imports: [
     BrowserModule,
