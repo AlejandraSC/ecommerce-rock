@@ -1,49 +1,70 @@
+* {
+    font-family: var(--font__general);
+}
+
+.footer-section {
+  margin-top: 40px;
+}
+
 .footer__container--links {
-    display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: 1fr;
-justify-items: center;
-margin-left: 19px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+  margin-left: 19px;
+}
+
+.nav__item--title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .nav-link {
-    color: var(--secondary-color);
-    font-size: 15px;
+  color: var(--text-color__dark);
+  font-size: 15px;
+  cursor: pointer;
+  &:hover {
+    transition: transform ease 30s, background-color ease 1s;
+    color: var(--details-color);
+  }
 }
 
 .questions__container {
-   margin: 0 0 20px 19px; 
+  margin: 30px 0 20px 19px;
 }
 .questions__text {
-    margin-bottom: 0%;
+  margin-bottom: 0%;
 }
-.questions__phone{
-    color: var(--details-color)
+.questions__phone {
+  color: var(--details-color);
 }
 
 .contact__btn {
-    margin-left: 20px;
-    margin-bottom: 51px; 
-    &:hover {
-        transition: transform ease 30s, background-color ease 1s;
-        background-color: var(--interactions);
-        color: var(--details-color);
-      }
+  margin-left: 20px;
+  margin-bottom: 51px;
+  &:hover {
+    transition: transform ease 30s, background-color ease 1s;
+    background-color: var(--text-color__light);
+    color: var(--details-color);
+  }
 }
 
 .payment__methods {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
-.footer__daitool--container , .footer__madeby--container { 
-    text-align: center;
-}
-
-.heart {
-    color: var(--interactions);
+.footer__daitool--container,
+.footer__madeby--container {
+  text-align: center;
 }
 
 .github__icon {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
+  &:hover {
+    transition: transform ease 30s, background-color ease 1s;
+    color: var(--details-color__secondary);
+  }
 }

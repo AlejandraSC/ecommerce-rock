@@ -1,11 +1,9 @@
 :root{
 //fonts
---font__general: "Mullish";
-/* --header-font: "Caveat"; */
-/* --title-font: "RobotoSlab", */
-/* sans-serif; */
-/* --text-font: "Roboto", */
-/* sans-serif; */
+--font__general: 'Mulish', sans-serif;
+* {
+    font-family: var(--font__general);
+}
 
 //colors
 --primary-color: #ffffff;
@@ -16,3 +14,6 @@
 --text-color__meidum: #8D8D8D;
 --text-color__light: #C4C4C4;
 }
+
+
+

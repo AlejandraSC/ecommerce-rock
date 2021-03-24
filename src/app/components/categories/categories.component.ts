@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { JsonService } from 'src/app/service/json.service';
 
-
 @Component({
   selector: 'app-categories',
   templateUrl: './categories.component.html',
