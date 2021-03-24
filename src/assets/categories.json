@@ -1,32 +1,32 @@
 [
   {
     "title": "Safety",
-    "subtitle": "subtitle",
+    "subtitle": "Subtitle",
     "image": "./assets/images/safety.jpg"
   },
   {
     "title": "Janitorial",
-    "subtitle": "subtitle",
+    "subtitle": "Subtitle",
     "image": "./assets/images/janitorial.jpg"
   },
   {
     "title": "Tools",
-    "subtitle": "subtitle",
+    "subtitle": "Subtitle",
     "image": "./assets/images/tools.jpg"
   },
   {
     "title": "Woodworking",
-    "subtitle": "subtitle",
+    "subtitle": "Subtitle",
     "image": "./assets/images/woodworking.jpg"
   },
   {
     "title": "Gardening",
-    "subtitle": "subtitle",
+    "subtitle": "Subtitle",
     "image": "./assets/images/gardening.jpg"
   },
   {
     "title": "Office supplies",
-    "subtitle": "subtitle",
+    "subtitle": "Subtitle",
     "image": "./assets/images/office.jpg"
   }
 ]

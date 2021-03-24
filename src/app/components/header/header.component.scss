@@ -10,15 +10,47 @@
   height: 152px;
 }
 
+.icons-color {
+  color: var(--primary-color);
+} 
+
 .hamburguer__icon {
   width: 21px;
 height: 14.5px;
 left: 25px;
 top: 26.5px;
 }
-.icons-color {
-    color: var(--primary-color);
-  }
+
+.hamburguer--menu__interior {
+  background-color: var(--primary-color);
+}
+
+.nav__interior--container{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: 1fr;
+justify-items:flex-start;
+left: 30px;
+}
+
+.help__interior__container {
+  margin-left: 30px;
+margin-bottom: 10%;
+}
+
+.nav__item--title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.nav__link , .nav__item--title {
+  color: var(--secondary-color);
+  line-height: 32px;
+}
+
+.help__interior__link {
+  color: var(--details-color);
+}
 
 .fa-1x {
   font-size: 1.5rem;

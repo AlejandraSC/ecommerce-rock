@@ -1,18 +1,18 @@
 .promises__title {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 26px 0 0 19px;
-    color: var(--text-color__light); 
+  font-weight: bold;
+  font-size: 18px;
+  margin: 26px 0 0 19px;
+  color: var(--text-color__light);
 }
 
 .promises__container--images {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 3fr;
-    justify-items: center;
-  }
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 3fr;
+}
 
-  .promises__container--alone {
-      display: block;
-      margin: auto;
-  }
+.promises__container--alone {
+  display: block;
+  margin: auto;
+}

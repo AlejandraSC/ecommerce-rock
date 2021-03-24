@@ -20,7 +20,7 @@ product">
   <div class="card bg-dark text-white card__categorie--container" *ngFor="let categorie of categories; let i = index">
     <img class="card__categorie--img" [src]="categorie.image" alt="Card image cap">
     <div class="card-img-overlay card__categorie--text">
-        <h6>{{categorie.title}}</h6>
-      <p class="card-text">{{categorie.subtitle}}</p>
+        <h6 class="categorie__text--title">{{categorie.title}}</h6>
+      <p class="categorie__text--subtitle">{{categorie.subtitle}}</p>
     </div>
   </div>
